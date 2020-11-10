@@ -1,0 +1,20 @@
+class Square():
+    
+    side = 1.0
+    
+    def __init__(self, side):
+        self.side = side
+        
+    def getArea(self):
+        
+        def setSide(self):
+            if self.side < 0:
+                self.side = 0
+            else : 
+                self.side = self
+        
+        return self.side*self.side
+    
+    
+a = Square(-7)
+print(a.getArea())
